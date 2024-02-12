@@ -268,7 +268,7 @@ function toStringList(arr) {
  *   distinct([]) => []
  */
 function distinct(arr) {
-  throw new Error('Not implemented');
+  return [...new Set(arr)];
 }
 
 /**
